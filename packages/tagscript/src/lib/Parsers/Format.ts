@@ -23,8 +23,8 @@ import { escapeContent } from '../Utils/Util';
  *     {escape:Hello| Parbez!}
  *     # Hello\\| Parbez!
  *
- * 	   {split(;):hi;hey;hello}
- * 	   # hi,hey,hello
+ *     {split(;):hi;hey;hello}
+ *     # hi,hey,hello
  *     # \ can be used to escape parameter argument separator as shown below:
  *     {split(\,,|):hello,hey,hi}
  *     # hello|hey|hi
